@@ -8,17 +8,17 @@ Develop a Recurrent Neural Network model for stock price prediction using the st
 ### Neural Network Model
 ![image](https://user-images.githubusercontent.com/94155183/195606036-5e66565b-d3a4-433f-b020-e458e541afd7.png)
 
-DESIGN STEPS
-STEP 1:
+### DESIGN STEPS
+ ### STEP 1:
 
-Import the necessary tensorflow modules
-STEP 2:
+  Import the necessary tensorflow modules
+### STEP 2:
 
 load the stock dataset
-STEP 3:
+### STEP 3:
 
 fit the model and then predict
-PROGRAM
+### PROGRAM
 ~~~
 import numpy as np
 import matplotlib.pyplot as plt
@@ -80,14 +80,14 @@ plt.show()
 from sklearn.metrics import mean_squared_error as mse
 mse(Y_test,predicted_stock_price)
 ~~~
-OUTPUT
-True Stock Price, Predicted Stock Price vs time
+### OUTPUT
+### True Stock Price, Predicted Stock Price vs time
 
 ![image](https://user-images.githubusercontent.com/94155183/195605453-cb8ad788-945c-44c8-a6cc-028358616d43.png)
-Mean squared error:
+### Mean squared error:
 
 ![image](https://user-images.githubusercontent.com/94155183/195605769-f83edca0-712f-44a0-bd5b-2b3b71101c05.png)
 
-RESULT
+### RESULT
 
 Thus a Recurrent Neural Network model for stock price prediction is created and executed successfully.
